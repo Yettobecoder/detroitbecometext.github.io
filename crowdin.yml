@@ -1,3 +1,9 @@
 files:
-  - source: assets/html/
+  - source: assets/html/*.html
     translation: assets/loc/%two_letters_code%/%original_file_name%
+  - source: assets/html/*.xlsx
+    translation: assets/loc/%two_letters_code%/%original_file_name%
+    multilingual_spreadsheet: 1
+    first_line_contains_header: 1
+    scheme: >-
+      identifier,context,none,none,none,none,none,none,none,source_phrase,none,none,none,none,none,none,fr,it,de,es,ru
